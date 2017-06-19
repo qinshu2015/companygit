@@ -1,0 +1,399 @@
+/*最顶部*/
+		.indextop{
+			width: 100%;
+			height: 30px;
+			background: #333;
+		}
+		.indextop .dtopright{
+			/*width: 1200px;*/
+			margin: 0 auto;
+			color: #666;
+			text-align: right;
+			line-height: 30px;
+			font-size: 12px;
+			margin-right: 30px;
+		}
+		.indextop .dtopright span.spanone{
+			padding: 0px 12px 0 18px;
+			border-right: 1px solid #666;
+			background: url(../img/topicon1.png) no-repeat;
+			background-position:0 50% ;
+		}
+		.indextop .dtopright span.spantwo{
+			padding: 0px 12px 0 35px;
+			border-right: 1px solid #666;
+			background: url(../img/topicon2.png) no-repeat;
+			background-position:15px 50% ;
+		}
+		.indextop .dtopright span.spanthree{ 
+			padding: 0px 0px 0 8px;
+		}
+		/*导航部分*/
+		.navlist{
+			width: 1200px;
+			height: 70px;
+			margin: 0 auto;
+		}
+		.navlist .floleft{
+			float: left;
+		}
+		.navlist .indextest ul{
+			margin-left: 20px;
+		}
+		.navlist .indextest ul li{
+			float: left;
+			width: 100px;
+			text-align: center;
+			line-height: 70px;
+			position: relative;
+		}
+		.navlist .indextest ul li a{
+			color: #112139;
+			font-size: 15px;
+		}
+		.navlist .indextest ul li a:hover{
+			padding-bottom: 6px;
+			text-decoration: none;
+			color: #004bd5;
+			border-bottom: 2px solid #004bd5;
+		}
+		.navlist .indextest ul li a.hovers{
+			padding-bottom: 6px;
+			text-decoration: none;
+			color: #004bd5;
+			border-bottom: 2px solid #004bd5;
+		}
+		.navlist .indextest ul li:hover .navtwo{
+			display: inline-block;
+		}
+		/*导航栏自适应*/
+		@media only screen and (max-width:1024px ) {
+			.navlist{
+				width: auto;
+			}
+			.navlist .rightsearch{
+				display: none;
+				width: 0;
+			}
+			.navlist .indextest ul li{
+				width: 95px;
+			}
+		}
+			/*二级菜单*/
+		.navlist .indextest ul li .navtwo{
+			position: absolute;
+			z-index: 999;
+			left: -20px;
+			top: 70px;
+			background:rgba(255,255,255,0.8);
+			display: none;
+		}
+		.navlist .indextest ul li .navtwo li{
+			line-height:40px ;
+		}
+		.navlist .indextest ul li .navtwo li a:hover{
+			display: inline-block;
+			background: #004BD5;
+			color: #fff;
+			width: 100%;
+			height: 40px;
+		}
+		.navlist .rightsearch{
+			float: right;
+			line-height: 70px;
+		}
+		.navlist .rightsearch input{
+			width: 170px;
+			height: 25px;
+			border: 1px solid #d9d9d9;
+			background: url(../img/searchbg.png) no-repeat;
+			background-position:3% 50% ;
+			padding-left: 25px;
+		}
+		/*banner*/
+		.Magrinauto{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		/*定位导航*/
+		.positionnav{
+			width: 1200px;
+			height: 80px;
+			background: #fff;
+			position: absolute;
+			/*top: -15px;*/
+			box-shadow: 0px 1px 6px #e4e4e4;
+		}
+		
+		.positionnav .posilist li{
+			float: left;
+			width: 240px;
+			height: 80px;
+			margin: 0 auto;
+			text-align: center;
+			color: #2a3b54;
+			font-we ight: bold;
+		}
+		.positionnav .posilist li:nth-of-type(1){
+			background: url(../img/nav1.png) no-repeat;
+			background-position:50% 20% ;
+			background-size:15% ;
+			padding-top: 53px;
+		}
+		.positionnav .posilist li:nth-of-type(1):hover{
+			background-image: url(../img/nav1hover.png);
+			background-repeat:no-repeat;
+			background-color:#0066ff ;
+			background-size:15% ;
+			height: 90px;
+			position:relative ;
+			top: -15px;
+			border-top:3px solid #fff ;
+			color: #fff;
+			background-position:50% 20% ;
+			padding-top: 50px;
+		}
+		.positionnav .posilist li:nth-of-type(2){
+			background: url(../img/nav2.png) no-repeat;
+			background-position:50% 20% ;
+			padding-top: 53px;
+			background-size:15% ;
+		}
+		.positionnav .posilist li:nth-of-type(2):hover{
+			background-image: url(../img/nav2hover.png);
+			background-repeat:no-repeat;
+			background-color:#0066ff ;
+			background-size:15% ;
+			height: 90px;
+			position:relative ;
+			top: -15px;
+			border-top:3px solid #fff ;
+			color: #fff;
+			background-position:50% 20% ;
+			padding-top: 50px;
+		}
+		.positionnav .posilist li:nth-of-type(3){
+			background: url(../img/nav3.png) no-repeat;
+			background-position:50% 20% ;
+			padding-top: 53px;
+			background-size:15% ;
+		}
+		.positionnav .posilist li:nth-of-type(3):hover{
+			background-image: url(../img/nav3hover.png);
+			background-repeat:no-repeat;
+			background-color:#0066ff ;
+			background-size:15% ;
+			height: 90px;
+			position:relative ;
+			top: -15px;
+			border-top:3px solid #fff ;
+			color: #fff;
+			background-position:50% 20% ;
+			padding-top: 50px;
+		}
+		.positionnav .posilist li:nth-of-type(4){
+			background: url(../img/nav4.png) no-repeat;
+			background-position:50% 20% ;
+			padding-top: 53px;
+			background-size:15% ;
+		}
+		.positionnav .posilist li:nth-of-type(4):hover{
+			background-image: url(../img/nav4hover.png);
+			background-repeat:no-repeat;
+			background-color:#0066ff ;
+			background-size:15% ;
+			height: 90px;
+			position:relative ;
+			top: -15px;
+			border-top:3px solid #fff ;
+			color: #fff;
+			background-position:50% 20% ;
+			padding-top: 50px;
+		}
+		.positionnav .posilist li:nth-of-type(5){
+			background: url(../img/nav5.png) no-repeat;
+			background-position:50% 20% ;
+			padding-top: 53px;
+			background-size:15% ;
+		}.positionnav .posilist li:nth-of-type(5):hover{
+			background-image: url(../img/nav5hover.png);
+			background-repeat:no-repeat;
+			background-color:#0066ff ;
+			background-size:15% ;
+			height: 90px;
+			position:relative ;
+			top: -15px;
+			border-top:3px solid #fff ;
+			color: #fff;
+			background-position:50% 20% ;
+			padding-top: 50px;
+		}
+		@media only screen and (max-width:1024px ) {
+			/*定位导航自适应*/
+			.Magrinauto{
+				width: 100%;
+				margin: 0 auto;
+			}
+			.positionnav{
+				width: 100%;
+			}
+			.positionnav .posilist{
+				width: 100%;
+			}
+			.positionnav .posilist li{
+				width: 20%;
+			}
+			/*集团简介*/
+			.companymag p{
+				width: 95%;
+				margin: 10px auto;
+				line-height: 25px;
+			}
+			
+		}
+		/*集团简介*/
+		.companymag h3{
+			margin-top: 60px;
+			text-align: center;
+			font-size: 18px;
+			height: 35px;
+			color: #112139;
+			background: url(../img/title_line.png) no-repeat;
+			background-position:center bottom;
+		}
+		.companymag p{
+			font-size: 14px;
+		}
+		.companymag .msgseat{
+			display: inline-block;
+			width: 25px;
+			font-size: 12px;
+		}
+		/*新闻信息*/
+		.newsmssage{
+			width: 100%;
+			height: 570px;
+			background: #eee;
+			margin-top: 50px;
+		}
+		.newsmssage .newscontent{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		.newsmssage .newscontent h3{
+			padding-top: 40px;
+			text-align: center;
+			font-size: 18px;
+			height: 75px;
+			color: #112139;
+			background: url(../img/title_line.png) no-repeat;
+			background-position:center bottom;
+		}
+		.newsmssage .newscontent .newscontimg
+		{
+			margin-top: 40px;
+		}
+		.newsmssage .newscontent .newscontimg ul li{
+			float: left;
+			width: 380px;
+			height: 280px;
+			box-shadow: 1px 3px 5px #ccc;
+			position: relative;
+		}
+		.newsmssage .newscontent .newscontimg ul li:nth-of-type(1){
+			background: url(../img/newimg1.png) no-repeat;
+		}
+		.newsmssage .newscontent .newscontimg ul li:nth-of-type(2){
+			background: url(../img/newimg2.png) no-repeat;
+			margin-left: 25px;
+		}
+		.newsmssage .newscontent .newscontimg ul li:nth-of-type(3){
+			background: url(../img/newimg3.png) no-repeat;
+			margin-left: 25px;
+		}
+		.newsmssage .newscontent .newscontimg ul li .newconttext{
+			padding-top: 160px;
+			padding-left: 8px;
+		}
+		.newsmssage .newscontent .newscontimg ul li .newconttext a{
+			color: #112139;
+			margin-top: 8px;
+			display: inline-block;
+		}
+		.newsmssage .newscontent .newscontimg ul li .newconttext a:hover{
+			text-decoration: none;
+			color: #0066ff;
+			
+		}
+		.newsmssage .newscontent .newscontimg ul li .newmore{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			display: none;
+		}
+		.newsmssage .newscontent .newscontimg ul li:hover .newmore{
+			display: inline-block;
+		}
+		.newsmssage .newscontent p.masbg{
+			width: 129px;
+			height: 32px;
+			margin: 0 auto;
+			background:url(../img/newjt.png) no-repeat ;
+		}
+		.newsmssage .newscontent p.masbg:hover{
+			background:url(../img/newjt-active.png) no-repeat ;
+		}
+		/*新闻信息自适应*/
+		@media only screen and (max-width:1024px ) {
+			/*新闻信息*/
+			.newsmssage{
+				width:100%;
+				margin: 0 auto;
+				margin-top: 50px;
+			}
+			.newsmssage .newscontent{
+				width: 95%;
+			}
+			.newsmssage .newscontent .newscontimg ul li{
+				width: 31%;
+			}
+		}
+		/*相关链接*/
+		.aboutlink{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		.aboutlink ul li{
+			float: left;
+			width: 240px;
+			text-align: center;
+			height: 60px;
+			line-height: 60px;
+		}
+		.aboutlink ul li a{
+			color: #112139;
+		}
+		.aboutlink ul li a:hover{
+			color: #0066ff;
+			text-decoration: none;
+		}
+		/*相关链接自适应*/
+		@media only screen and (max-width:1024px ){
+			.aboutlink{
+				width: 100%;
+			}
+			.aboutlink ul li{
+ 				width: 20%;
+			}
+		}
+		/*底部*/
+		.wsbottom{
+			width: 100%;
+			height: 160px;
+			background: #333;
+			color: #666;
+			text-align: center;
+		}
+		.wsbottom .wsbottomtext{
+			padding-top: 60px;
+		}

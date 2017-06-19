@@ -1,0 +1,129 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+img {
+	padding: 0;
+	margin: 0;
+}
+
+fieldset,
+img {
+	border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var,
+i {
+	font-weight: normal;
+	font-style: normal;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li {
+	zoom: 1;
+}
+
+caption,
+th {
+	text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+q:before,
+q:after {
+	content: '';
+}
+
+abbr,
+acronym {
+	border: 0;
+}
+
+
+/*-- All --*/
+
+body {
+	color: #333;
+	font: 12px/20px "Microsoft YaHei";
+	/*text-align:center;  */
+}
+
+a {
+	color: #105B49;
+	text-decoration: none;
+	outline: none;
+}
+
+
+/*a:hover {color:#f00; text-decoration:underline; }*/
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+}
+
+table td,
+table th {
+	border: #ddd solid 1px;
+	padding: 5px 10px;
+}
+
+table th {
+	background: #f3f3f3;
+}
+
+table .new td {
+	color: #f60;
+	font-weight: bold;
+}
+.qsborder{
+	border: 1px solid red;
+}
