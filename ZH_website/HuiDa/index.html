@@ -257,6 +257,7 @@
 		}
 		.topbottom .bottomimg{
 			float: left;
+			margin-left: 50px;
 		}
 		.topbottom .bottomtext{
 			float: left;
@@ -272,6 +273,21 @@
 		.topbottom .bottomtext ul li{
 			margin-bottom: 20px;
 			font-size: 12px;
+		}
+		/*自适应*/
+		@media only screen and (max-width:1024px ){
+			.carousel {
+				width: 1200px;
+			}
+			.carousel-inner > .item > a > img {
+				width: 100%;
+			}
+			.carousel-inner {
+			  width: 1200px;
+			}
+			.aboutlink,.wsbottom{
+				width: 1200px;
+			}
 		}
 	</style>
 	<body>
