@@ -1,0 +1,224 @@
+
+		/*banner*/
+		.Magrinauto{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		@media only screen and (max-width:1024px ) {
+			/*定位导航自适应*/
+			.Magrinauto{
+				width: 100%;
+				margin: 0 auto;
+			}
+			/*集团简介*/
+			.companymag p{
+				width: 95%;
+				margin: 10px auto;
+				line-height: 25px;
+			}
+		}
+		/*集团简介*/
+		.companymag h3{
+			margin-top: 60px;
+			text-align: center;
+			font-size: 24px;
+			height: 38px;
+			color: #112139;
+			background: url(../img/title_line.png) no-repeat;
+			background-position:center bottom;
+			margin-bottom: 30px;
+		}
+		.companymag p{
+			font-size: 19px;
+			line-height: 35px;
+			text-indent: 20px;
+		}
+		.companymag .msgseat{
+			display: inline-block;
+			width: 25px;
+			font-size: 12px;
+		}
+		/*主营业务*/
+		.mastwork{
+			width: 100%;
+			background: #edf3ff;
+			height: 400px;
+			margin-top: 70px;
+		}
+		.mastwork h3{
+			padding-top: 60px;
+			text-align: center;
+			font-size: 24px;
+			height: 100px;
+			color: #112139;
+			background: url(../img/title_line.png) no-repeat;
+			background-position:center bottom;
+		}
+		.mastwork ul{
+			width: 1200px;
+			margin: 0 auto;
+			margin-top: 50px;
+		}
+		.mastwork ul li{
+			float: left;
+			width: 14.2%;
+			text-align: center;
+			height: 200px;
+		}
+		.mastwork ul li:nth-of-type(1)
+		{
+			background: url(../img/work01.png) no-repeat;
+			background-position:50% 0  ;
+			background-size:70% ;
+		}
+		.mastwork ul li:nth-of-type(2)
+		{
+			background: url(../img/work02.png) no-repeat;
+			background-position:50% 0  ;
+			background-size:70% ;
+		}
+		.mastwork ul li:nth-of-type(3)
+		{
+			background: url(../img/work03.png) no-repeat;
+			background-position:50% 0  ;
+			background-size:70% ;
+		}
+		.mastwork ul li:nth-of-type(4)
+		{
+			background: url(../img/work04.png) no-repeat;
+			background-position:50% 0  ;
+			background-size:70% ;
+		}
+		.mastwork ul li:nth-of-type(5)
+		{
+			background: url(../img/work05.png) no-repeat;
+			background-position:50% 0  ;
+			background-size:70% ;
+		}
+		.mastwork ul li:nth-of-type(6)
+		{
+			background: url(../img/work06.png) no-repeat;
+			background-position:50% 0  ;
+			background-size:70% ;
+		}
+		.mastwork ul li:nth-of-type(7)
+		{
+			background: url(../img/work07.png) no-repeat;
+			background-position:50% 0  ;
+			background-size:70% ;
+		}
+		.mastwork ul li a{
+			display: inline-block;
+			padding: 2px 25px;
+			border: 1px solid #0077ff;
+			color: #0077ff;
+			text-decoration: none;
+			margin-top: 140px;
+		}
+		.mastwork ul li a:hover{
+			background: #0077ff;
+			color: #fff;
+		}
+		/*新闻信息*/
+		.newsmssage{
+			width: 100%;
+			height: 570px;
+			margin-top: 50px;
+		}
+		.newsmssage .newscontent{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		.newsmssage .newscontent h3{
+			padding-top: 40px;
+			text-align: center;
+			font-size: 24px;
+			height: 80px;
+			color: #112139;
+			background: url(../img/title_line.png) no-repeat;
+			background-position:center bottom;
+		}
+		.newsmssage .newscontent p.masbg a{
+			display: inline-block;
+			width: 120px;
+			height: 35px;
+			margin: 0 auto;
+			background: #0077ff;
+			color: #fff;
+			text-align: center;
+			line-height: 35px;
+			border-radius:5px ;
+		}
+		.newsmssage .newscontent p.masbg a:hover{
+			color: #0077ff;
+			border: 1px solid #0077ff;
+			background: no-repeat;
+			cursor: pointer;
+		}
+		.newscontent .newbannobj .newimgs{
+			float: left;
+			margin-left: 60px;
+		}
+		.newscontent .newbannobj .newimgs img{
+			width: 480px;
+			height: 250px;
+		}
+		.newscontent .newbannobj .newbeginer{
+			float: left;
+			margin-left: 20px;
+		}
+		.newbeginer .newtexts:nth-of-type(1){
+			border-bottom:1px solid #e5e5e5 ;
+		}
+		.newbeginer .newtexts{
+			height: 120px;
+			margin-top: 20px;
+		}
+		.newbeginer .newtexts .texttime{
+			float: left;
+			text-align: center;
+		}
+		.newbeginer .newtexts .texttime h4{
+			font-size: 28px;
+		}
+		.newbeginer .newtexts .textcont{
+			float: left;
+			margin-left: 15px;
+			width: 480px;
+		}
+		.newbeginer .newtexts .textcont ul li{
+			margin-top: 10px;
+			cursor: pointer;
+			font-size: 18px;
+		}
+		.newbeginer .newtexts .textcont ul li:hover{
+			color: #0074FF;
+		}
+		/*新闻信息自适应*/
+		@media only screen and (max-width:1024px ) {
+			/*新闻信息*/
+			.newsmssage{
+				width:100%;
+				margin: 0 auto;
+				margin-top: 50px;
+			}
+			.newsmssage .newscontent{
+				width: 95%;
+			}
+			.mastwork ul{
+				width: 100%;
+			}
+			.newscontent .newbannobj .newimgs img{
+				width: 380px;
+			}
+			.newbeginer .newtexts .textcont{
+				width: 70%;
+			}
+			.newbeginer .newtexts {
+			    height: 145px;
+			}
+			.newsmssage .newscontent p.masbg{
+				margin-bottom: 40px;
+			}
+		}
+		

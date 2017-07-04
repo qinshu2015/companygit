@@ -1,0 +1,187 @@
+/*最顶部*/
+		.indextop{
+			width: 100%;
+			height: 30px;
+			background: #333;
+		}
+		.indextop .dtopright{
+			/*width: 1200px;*/
+			margin: 0 auto;
+			color: #666;
+			text-align: right;
+			line-height: 30px;
+			font-size: 12px;
+			margin-right: 30px;
+		}
+		.indextop .dtopright span.spanone{
+			padding: 0px 12px 0 18px;
+			border-right: 1px solid #666;
+		}
+		.indextop .dtopright span.spanthree{ 
+			padding: 0px 0px 0 8px;
+		}
+		.topjies{
+			width: 1200px;
+			margin: 0px auto;
+		}
+		.topjies .toplogo{
+			float: left;
+		}
+		.topjies .toptextimg{
+			float: right;
+			line-height: 70px;
+		}
+		.topjies .toptextimg .spanones{
+			background-color: #018ac1;
+			color: #fff;
+			padding: 3px 3px 3px 20px;
+			border-radius:3px ;
+			background-image: url(../img/topicon1.png);
+			background-repeat:no-repeat ;
+			background-position:2px 50% ;
+		}
+		.topjies .toptextimg .spantwos{
+			background-color: #0066a4;
+			color: #fff;
+			padding: 3px 3px 3px 23px;
+			border-radius:3px ;
+			background-image: url(../img/topicon2.png);
+			background-repeat:no-repeat ;
+			background-position:3px 50% ;
+			margin-left: 5px;
+		}
+		/*导航部分*/
+		.navlistobjs{
+			width: 100%;
+			height: 50px;
+			background: #004492;
+		}
+		.navlistobjs ul{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		.navlistobjs ul li{
+			float: left;
+			width: 12.5%;
+			text-align: center;
+			line-height: 50px;
+			height: 48px;
+			position: relative;
+			border-left:1px solid #2061ab ;
+		}
+		.navlistobjs ul li a{
+			color: #fff;
+			font-size: 15px;
+			width: 100%;
+			height: 100%;
+			display: inline-block;
+		}
+		.navlistobjs ul li a:hover{
+			padding-bottom: 6px;
+			text-decoration: none;
+			color: #004492;
+			background: #fff;
+			border-bottom: 1px solid #004bd5;
+		}
+		.navlistobjs ul li a.hovers{
+			padding-bottom: 6px;
+			text-decoration: none;
+			color: #004492;
+			background: #fff;
+			border-bottom: 1px solid #004bd5;
+		}
+		.navlistobjs ul li:hover .navtwo{
+			display: inline-block;
+		}
+		@media only screen and (max-width:1024px ){
+			.topjies{
+				width: 100%;
+			}
+			.navlistobjs ul{
+				width: 100%;
+			}
+		}
+		/*二级菜单*/
+		.navlistobjs ul li .navtwo{
+			width: 100%;
+			position: absolute;
+			z-index: 999;
+			left: 0px;
+			background: #004492;
+			display: none;
+		}
+		.navlistobjs ul li .navtwo li{
+			line-height:32px ;
+			width: 100%;
+			height: 40px;
+			clear: both;
+			border: none;
+		}
+		.navlistobjs ul li .teshchcom {
+			width:  240px;
+		}
+		.navlistobjs ul li .navtwo li a{
+			color: #fff;
+			display: inline-block;
+			width: 100%;
+			height: 40px;
+			line-height: 40px;
+		}
+		.navlistobjs ul li .navtwo li a:hover{
+			display: inline-block;
+			background: #fff;
+			color: #004492;
+			width: 100%;
+			height: 40px;
+			line-height: 40px;
+			cursor: pointer;
+		}
+		
+/*相关链接*/
+		.aboutlink{
+			width: 100%;
+			background: #d2d2d2;
+		}
+		.aboutlink ul{
+			width: 1200px;
+			height: 60px;
+			margin: 0 auto;
+		}
+		.aboutlink ul li{
+			float: left;
+			width: 240px;
+			text-align: center;
+			height: 60px;
+			line-height: 60px;
+		}
+		.aboutlink ul li a{
+			color: #112139;
+		}
+		.aboutlink ul li a:hover{
+			color: #0066ff;
+			text-decoration: none;
+		}
+		/*相关链接自适应*/
+		@media only screen and (max-width:1024px ){
+			.aboutlink{
+				width: 100%;
+				margin-top: 40px;
+			}
+			.aboutlink ul{
+				width: 100%;
+			}
+			.aboutlink ul li{
+ 				width: 20%;
+			}
+		}
+		/*底部*/
+		.wsbottom{
+			width: 100%;
+			height: 160px;
+			background: #333;
+			color: #666;
+			text-align: center;
+		}
+		.wsbottom .wsbottomtext{
+			padding-top: 60px;
+		}

@@ -1,0 +1,119 @@
+.contnew{
+			width:1200px;
+			margin: 40px auto;
+		}
+		.contnew h2{
+			font-size: 18px;
+			color: #112139;
+			font-weight: bold;
+			padding-left: 7px;
+			padding-top: 3px;
+			border-left: 2px solid #0066ff;
+		}
+		.contnew .newlist li{
+			width: 50%;
+			float: left;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.contnew .newlist li .newlistleft{
+			width: 70px;
+			height: 70px;
+			background: #0074ff;
+			color: #fff;
+			float: left;
+			text-align: center;
+		}
+		.contnew .newlist li .newlistleft span{
+			font-size: 12px;
+			display: inline-block;
+			line-height: 30px;
+		}
+		.contnew .newlist li .newlistleft p{
+			font-size: 26px;
+		}
+		.contnew .newlist li .newlistright{
+			float: left;
+			margin-left: 15px;
+			width: 70%;
+		}
+		.contnew .newlist li .newlistright a{
+			color: #2a3b54;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		.contnew .newlist li .newlistright a:hover{
+			color: #0074ff;
+		}
+		/*媒体查询   集团简介*/
+		@media only screen and (max-width:1024px ) {
+			.contnew{
+				width:98%;
+				margin: 40px auto;
+			} 
+		}
+		/*弹出框图层*/
+		.tcbodyhide{
+			height: 100%;
+			width: 100%;
+			overflow: hidden;		
+		}
+		.bigtucheng{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			background: rgba(0,0,0,0.5);
+			display: none;
+		}
+		.bigtucheng .zherab{
+			width: 1000px;
+			height: 400px;
+			overflow-y: scroll;
+			background: #fff;
+			border-radius:6px ;
+			z-index: 999;
+			padding: 10px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			margin: auto;
+		}
+		.bigtucheng .zherab .hdclose{
+			position: absolute;
+			right: 20px;
+			top:6px ;
+			font-size: 30px;
+			cursor: pointer;
+		}
+		.bigtucheng .zherab h3{
+			text-align: center;
+			position: relative;
+			top: 10px;
+		}
+		.bigtucheng .zherab .contents p{
+			text-indent: 25px;
+			margin-top: 30px;
+		}
+		/*新闻详情*/
+		.xq_newlist{
+			width: 1200px;
+			margin: 0 auto;
+			margin-top: 60px;
+		}
+		.xq_newlist .xq_tite{
+			font-size: 22px;
+			border-left:2px solid #4280ff ;
+			padding-left: 10px;
+			font-weight: bold;
+		}
+		.xq_newlist .xq_content{
+			font-size: 19px;
+			text-indent: 35px;
+			line-height:35px;
+			margin-top: 30px;
+			margin-bottom: 50px;
+			
+		}

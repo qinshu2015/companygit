@@ -1,0 +1,284 @@
+.contauto{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		.contauto .maxtop{
+			height: 120px;
+			line-height: 120px;
+		}
+		.contauto .maxtop .toplogo{
+			float: left;
+		}
+		.contauto .maxtop .toptext{
+			float: left;
+			margin-left: 50px;
+			
+		}
+		.contauto .maxtop .topsearch{
+			float: right;
+			
+		}
+		.contauto .maxtop .topsearch input{
+			width: 150px;
+			height: 25px;
+			border: 1px solid #666;
+			border-radius:20px ;
+			outline: none;
+			background: url(../HuiDa/tcimg/search.png) no-repeat;
+			background-position:2px 50% ;
+			background-size:12% ;
+			padding-left: 25px;
+		}
+		.contauto .maxtop .toptext ul li{
+			float: left;
+			width: 200px;
+			padding-left: 30px;
+		}
+		.contauto .maxtop .toptext ul li:nth-of-type(1){
+			background: url(../HuiDa/tcimg/icon01.png) no-repeat;
+			background-position:0 50% ;
+			background-size:10% ;
+		}
+		.contauto .maxtop .toptext ul li:nth-of-type(2){
+			background: url(../HuiDa/tcimg/icon02.png) no-repeat;
+			background-position:0 50% ;
+			background-size:11% ;
+		}
+		.contauto .maxtop .toptext ul li:nth-of-type(3){
+			background: url(../HuiDa/tcimg/icon03.png) no-repeat;
+			background-position:0 50% ;
+			background-size:11% ;
+		}
+		.navlistobj{
+			position: absolute;
+			top: 120px;
+			z-index: 999;
+			width: 1200px;
+			height: 70px;
+			background: #334837;
+		}
+		.navlistobj ul{
+			width: 1180px;
+			height: 75px;
+			margin: 0 auto;
+		}
+		.navlistobj ul li a{
+			color: #fff;
+		}
+		.navlistobj ul li{
+			float: left;
+			width: 12.5%;
+			height: 75px;
+			text-align: center;
+			line-height: 75px;
+		}
+		.navlistobj ul li:hover{
+			background: #e9c500;
+		}
+		.navlistobj ul li.active{
+			background: #e9c500;
+		}
+		.conttitle{
+			margin-top: 40px;
+			text-align: center;
+		}
+		.conttitle span{
+			color: #424943;
+			font-size: 12px;
+			line-height: 30px;
+			font-weight: bold;
+		}
+		.conttitle h2{
+			color: #1c3220;
+			font-weight: bold;
+			font-size: 16px;
+		}
+		.conttitle i{
+			display: inline-block;
+			width: 30px;
+			height: 2px;
+			background:#424943 ;
+		}
+		.contauto .comjianj{
+			font-size: 14px;
+			margin-top: 30px;
+			line-height: 30px;
+			text-align: center;
+		}
+		/*供应链*/
+		.supplydiv{
+			width: 100%;
+			height: 720px;
+			margin-top: 40px;
+			position: relative;
+		}
+		.supplydiv .supplybg{
+			height: 240px;
+			background: #297538;
+			position: relative;
+			top: 240px;
+		}
+		.supplydiv .supplylist{
+			width: 1200px;
+			height: 500px;
+			margin: 0 auto;
+		}
+		.supplydiv .supplylist ul{
+			width: 1200px;
+			height: 720px;
+			background: url(../HuiDa/tcimg/conttitlebg.png) no-repeat;
+			background-size:100% ;
+			position: absolute;
+			z-index: 999;
+			top: 0px;
+		}
+		.supplydiv .supplylist ul li{
+			width: 33.33%;
+			height: 240px;
+			float: left;
+			position: relative;
+		}
+		.supplydiv .supplylist ul li .sanjiao{
+			width: 0;
+			height: 0;
+			position: absolute;
+			bottom: 0;
+			left: 45.1%;
+			border-left: 17px solid transparent;
+			border-right: 17px solid transparent;
+			border-bottom: 17px solid #FFF;
+		}
+		.supplydiv .supplylist ul li.tsli{
+			margin-top: 115px;
+		}
+		.supplydiv .supplylist ul li:hover{
+			background: rgba(209,176,19,0.8);
+		}
+		.carousel .carousel-inner .item img{
+			min-width: 1200px
+		}
+		/*新闻列表*/
+		.newlistobj{
+			width: 1200px;
+			margin: 30px auto;
+			
+		}
+		.newlistnav{
+			width: 48%;
+		}
+		.newlistnav li{
+			width: 100%;
+			height: 130px;
+			clear: both;
+		}
+		.newlistobj .newlistone{
+			float: left;
+			border-right: 1px solid #D2D2D2
+		}
+		
+		.newlistobj .newlisttwo{
+			float: right;
+		}
+		.newlistnav li .newleft{
+			float: left;
+		}
+		.newlistnav li .newleft img{
+			width: 100px;
+			height: 100px;
+		}
+		.newlistnav li .newright{
+			float: left;
+			margin-left: 10px;
+		}
+		.newlistnav li .newright span{
+			font-size: 20px;
+		}
+		.newlistnav li .newright i{
+			color: #666;
+			margin-left: 5px;
+		}
+		.newlistnav li .newright a{
+			line-height: 28px;
+			color: #000;
+			font-size: 14px;
+		}
+		.newlistnav li .newright a:hover{
+			color: #297538;
+		}
+		/*相关链接*/
+		.aboutlink{
+			width: 100%;
+			height: 60px;
+			background: #eee;
+			margin: 0px auto;
+			margin-top: 70px;
+		}
+		.aboutlink ul{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		.aboutlink ul li{
+			float: left;
+			width: 240px;
+			text-align: center;
+			height: 60px;
+			line-height: 60px;
+		}
+		.aboutlink ul li a{
+			color: #112139;
+		}
+		.aboutlink ul li a:hover{
+			color: #0066ff;
+			text-decoration: none;
+		}
+		/*底部*/
+		.wsbottom{
+			width: 100%;
+			height: 500px;
+			background: #333;
+			color: #666;
+			text-align: center;
+		}
+		.wsbottom .wsbottomtext{
+			margin-top: 50px;
+			padding-top: 20px;
+			border-top:1px solid #444 ;
+		}
+		.topbottom{
+			padding-top: 50px;
+			bo rder: 1px solid red;
+		}
+		.topbottom .bottomimg{
+			float: left;
+			margin-left: 50px;
+		}
+		.topbottom .bottomtext{
+			float: left;
+			margin-left: 25px;
+			color: #fff;
+			text-align: left;
+		}
+		.topbottom .bottomtext h3{
+			font-size: 18px;
+			margin-bottom: 20px;
+			margin-top: 40px;
+		}
+		.topbottom .bottomtext ul li{
+			margin-bottom: 20px;
+			font-size: 12px;
+		}
+		/*自适应*/
+		@media only screen and (max-width:1024px ){
+			.carousel {
+				width: 1200px;
+			}
+			.carousel-inner > .item > a > img {
+				width: 100%;
+			}
+			.carousel-inner {
+			  width: 1200px;
+			}
+			.aboutlink,.wsbottom{
+				width: 1200px;
+			}
+		}
