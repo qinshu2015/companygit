@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>源识科技</title>
+		<link rel="shortcut icon" href="img/title.ico"/>
+		<link rel="stylesheet" href="css/defult.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/publick.css" />
+		<link rel="stylesheet" href="css/New.css" />
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+	</head>
+	<body>
+		<div class="yswrap">
+			<div class="Marginauto">
+				<div class="top">
+					<div class="topleft">
+						<img src="img/logo.png" />
+					</div>
+					<div class="topright">
+						服务热线：021-61811890
+					</div>
+				</div>
+			</div>
+			<div style="clear: both;"></div>
+			<!--导航-->
+			<div class="nav">
+				<ul>
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a  class="active" href="#">关于源识</a>
+					</li>
+					<li>
+						<a href="#">解决方案</a>
+					</li>
+					<li>
+						<a href="#">软件产品</a>
+					</li>
+					<li>
+						<a href="Informaztion.html">信息化服务</a>
+					</li>
+					<li>
+						<a href="TechSup.html">技术支持</a>
+					</li>
+					<li>
+						<a href="ContentUs.html">联系我们</a>
+					</li>
+				</ul>
+			</div>
+			<!--banner-->
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!-- 控制图片 -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="img/aboutbanner.png" />
+					</div>
+				</div>
+			</div>
+			<!--新闻列表-->
+			<div class="Marginauto">
+				<ul id="newlistnav" class="newlist">
+					<!--<li>
+						<div class="newtime">
+							<h3>10</h3>
+							<p>2017/03</p>
+						</div>
+						<div class="newtext">
+							<h3>”互联网+“未来发展的十大趋势</h3>
+							<p>从现状来看，“互联网+”处于初级阶段，是个都在热谈但是没有落实的理论阶段。各领域针对“互联网+”都会做一定的论证与探索，但是大部分商家仍旧会处于观望的阶段。从探索与实践的层面上，互联网商家会比传互联网商家会比传</p>
+						</div>
+					</li>-->
+				</ul>
+			</div>
+			<!--底部-->
+			<div style="height: 50px;clear: both;"></div>
+			<div class="footerobj">
+				<div class="footercontent">
+					<div style="height: 25px;"></div>
+					<div class="footerleft">
+						<a href="">首页</a>
+						<span>|</span>
+						<a href="">公司简介</a>
+						<span>|</span>
+						<a href="">服务介绍</a>
+						<span>|</span>
+						<a href="">新闻动态</a>
+						<span>|</span>
+						<a href="">联系我们</a>
+						<p>沪ICP备16013295号   Copyright©2016-2026 源识科技 版权所有</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			 //数据绑定
+			var page = 6;//每页条数
+			var li   = 0;
+			function PassOn(control){
+				window.location="Newmsg-xq.html?id="+control;
+			}
+			function pageList(){
+				$.ajax({
+					type : "GET",
+					url :"js/newmenu.json",
+					dataType : "json",
+					success : function (data) {
+						var html = '';
+						var list = page*li;
+						for(var i=list; i<(list+page); i++){
+							if(data[i]){
+								//html = html+'<li>'+data[i]["id"]+data[i]["title"]+data[i]["time"]+'</li>';
+								//html+='<li onclick="PassOn('+i+')">';
+								html+='<li><div class="newtime"><h3>'+data[i]["days"]+'</h3><p>'+data[i]["year"]+'/'+data[i]["mouth"]+'</p></div>';
+								html+='<div class="newtext"><h3>'+data[i]["title"]+'</h3>';
+								if(data[i]["contenobj"].length>30){
+									html+='<p>'+data[i]["contenobj"].substr(0,160)+'...</p>';
+								}
+								else{
+									html+='<p>'+data[i]["contenobj"]+'</p>';
+								}
+								html+='</div></li>';
+							}
+						}
+						$('#newlistnav').html(html);
+					}
+				});
+			}
+			pageList();
+		</script>
+	</body>
+</html>

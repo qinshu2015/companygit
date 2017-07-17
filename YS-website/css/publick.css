@@ -1,0 +1,93 @@
+.Marginauto{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		/*顶部*/
+		.top .topleft{
+			float: left;
+		}
+		.top .topright{
+			float: right;
+			line-height: 100px;
+			color: #0d77d0;
+			font-weight: bold;
+		}
+		/*导航*/
+		.nav{
+			width: 100%;
+			height: 60px;
+			background: #444444;
+		}
+		.nav ul{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		.nav ul li{
+			float: left;
+			line-height: 60px;
+			width: 14%;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.nav ul li a{
+			color: #fff;
+			display: inline-block;
+			width: 100%;
+			height: 100%;
+			font-size: 16px;
+		}
+		.nav ul li a:hover{
+			background: #0d77d0;
+		}
+		.nav ul li a.active{
+			background: #0d77d0;
+		}
+		/*底部*/
+		.footerobj{
+			width: 100%;
+			height: 130px;
+			background: #444;
+			color: #c5c5c5;
+		}
+		.footerobj .footercontent{
+			width: 800px;
+			margin: 0 auto;
+		}
+		.footerobj .footercontent a{
+			color: #c5c5c5;
+			margin: 0 5px;
+			line-height: 40px;
+		}
+		.footerobj .footercontent a:hover{
+			color: #a1a0a0;
+			
+		}
+		.footerobj .footercontent .footerleft{
+			text-align: center;
+		}
+		.footerobj .footercontent .footerright{
+			float: right;
+		}
+		.footerobj .footercontent .footerleft p{
+			line-height: 40px;
+		}
+		@media only screen and (max-width:1024px ){
+			.carousel {
+				width: 1200px;
+			}
+			.carousel-inner > .item > a > img {
+				width: 100%;
+			}
+			.carousel-inner {
+			  width: 1200px;
+			}
+			.aboutlink,.wsbottom{
+				width: 1200px;
+			}
+			.Marginauto,.nav{
+				width: 1200px;
+			}
+			.footerobj {
+			    width: 1200px;
+			}
+		}

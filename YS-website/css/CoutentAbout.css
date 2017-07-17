@@ -1,0 +1,133 @@
+/*关于我们*/
+.aoutys{
+			margin-top: 50px;
+			position: relative;
+			width: 1200px;
+			overflow: hidden;
+		}
+		.aoutys p{
+			color: #666;
+			text-indent: 25px;
+			font-size: 16px;
+			line-height: 30px;
+		}
+		.aoutys .aboutme_imgobj{
+			position: relative;
+			left: -1200px;
+		}
+		.aoutys .aboutme_bg{
+			height: 30px;
+			width: 0;
+			background: #1f5293;
+			opacity: 0.6;
+		}
+		.aoutys .bgone{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+		}
+		.aoutys .bgtwo{
+			position: absolute;
+			bottom: 0;
+			right: 0px;
+		}
+		.aoutys img{
+			width: 270px;
+			height: 145px;
+		}
+		.aoutys img:hover{
+			position: relative;
+			top: -15px;
+		}
+		.aoutys .aoutspan{
+			display: inline-block;
+			width: 31px;
+		}
+		
+/*联系方式*/
+.contmelist{
+			margin-top: 40px;
+		}
+		.contmelist li{
+			width: 33.33%;
+			float: left;
+		}
+		.contmelist li h4{
+			color: #0d77d0;
+			border-left:2px solid #0D77D0 ;
+			padding-left: 10px;
+			font-weight: bold;
+			margin-bottom: 20px;
+			width: 100%;
+			position: relative;
+			top: -30px;
+			opacity: 0;
+		}
+		.contmelist li p{
+			padding-left: 30px;
+			line-height: 30px;
+			font-size: 14px;
+			position: relative;
+			bottom: -30px;
+			opacity: 0;
+		}
+		.contmelist li p:nth-of-type(1){
+			background: url(../img/conticon1.png) no-repeat;
+			background-position:10px 50% ;
+		}
+		.contmelist li p:nth-of-type(2){
+			background: url(../img/conticon2.png) no-repeat;
+			background-position:10px 50% ;
+		}
+		.contmelist li p:nth-of-type(3){
+			background: url(../img/conticon3.png) no-repeat;
+			background-position:10px 50% ;
+		}
+		
+/*技术支持*/
+.tech_list{
+			margin-top: 50px;
+			width: 1200px;
+			overflow: hidden;
+		}
+		.tech_list li{
+			width: 48%;
+			border: 1px solid #ccc;
+			padding: 15px 25px;
+			margin-bottom: 35px;
+			position: relative;
+		}
+		.tech_list li h5{
+			color: #0d77d0;
+			font-size: 16px;
+			font-weight: bold;
+			margin-top: 5px;
+			margin-bottom: 20px;
+		}
+		.tech_list li .listtext{
+			margin-left: 20px;
+			margin-top: 30px;
+			font-size: 15px;
+		}
+		.tech_list li span{
+			display: inline-block;
+			position: absolute;
+			transition: 1s;
+		}
+		.tech_list li .span1{
+			top: 0;
+			left: 0;
+		}
+		.tech_list li .span2{
+			top: 0;
+			left: 0;
+		}
+		.tech_list li .span3{
+			right: 0;
+			bottom: 0;
+		}
+		.tech_list li .span4{
+			right: 0;
+			bottom: 0;
+		}
+		
