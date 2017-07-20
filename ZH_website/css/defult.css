@@ -91,17 +91,20 @@ acronym {
 
 body {
 	color: #333;
-	font: 12px/20px "Microsoft YaHei";
+	font-family: "microsoft yahei",arial,helvetica,sans-serif,"宋体";
+	*font-family: "microsoft yahei",arial,helvetica,sans-serif,"宋体";;   /* for IE6 */  
+	_font-family: "microsoft yahei",arial,helvetica,sans-serif,"宋体";; /*FOR IE7.0，7。0不支支下划线*/
 	/*text-align:center;  */
 }
 
-a {
+/*a {
 	color: #105B49;
 	text-decoration: none;
 	outline: none;
-}
+}*/
 
-
+a{text-decoration: none;color: #000;}
+		a:hover{text-decoration: none;}
 /*a:hover {color:#f00; text-decoration:underline; }*/
 
 table {
