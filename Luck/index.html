@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+		.start{
+			width: 50%;
+			margin: 40px auto;
+			text-align: center;
+			margin-top: 12%;
+		}
+		.dj{
+			width: 300px;
+			height: 100px;
+			line-height: 100px;
+			border: 1px solid #ccc;
+			margin: 40px auto;
+		}
+		.btnstr{
+			width: 42px;
+			height: 23px;
+		}
+	</style>
+	<body>
+		<div class="start">
+			<h1>抽奖大会</h1>
+			<input id="username" type="text" placeholder="请输入你的姓名" />
+			<button id="btnstr">开始</button>
+			<!--<input id="btnstr" class="btnstr" type="button" value="开始" />-->
+			<div id="dj" class="dj"></div>
+		</div>
+	</body>
+	<script>
+		window.onload=function(){
+			var namebj=false;
+			var prize=new Array("一等奖","二等奖","三等奖","三等奖","三等奖","二等奖","谢谢参与","谢谢参与","谢谢参与","谢谢参与")
+			//alert(prize[0])
+			var peo=new Array("李大","王二","张三","李四","王五","赵六","田七","赵八","徐九","张十")
+			//alert(prize.length);
+			document.getElementById("btnstr").onclick=function(){
+				var username=document.getElementById("username").value;
+					if(username==null || username==""){
+						alert("请输入你的姓名")
+					}
+					else{
+						namebj=true;
+						if(peo.lastIndexOf(username)===-1){
+							alert("你没有参赛资格哟，亲！");
+						}
+						else{
+//							if(namebj==true){
+//								alert("你已经抽过啦！")
+//							}
+//							else{
+								var indexobjs = Math.floor((Math.random()*prize.length)); 
+								//alert(prize[indexobjs]);
+								document.getElementById("dj").innerText=prize[indexobjs];
+//							}
+							this.value="禁止";
+							this.disabled=true; 
+							
+						}
+					}
+					
+					
+			}
+		}
+	</script>
+</html>
