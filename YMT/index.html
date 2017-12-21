@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>伊美特</title>
+		<!--<link rel="stylesheet" href="http://www.ematewater.com/Home/Tpl/Public/css/jquery.fullPage.css">
+		<link rel="stylesheet" type="text/css" href="http://www.ematewater.com/Home/Tpl/Public/css/common.css">
+		<link rel="stylesheet" type="text/css" href="http://www.ematewater.com/Home/Tpl/Public/css/index.css">-->
+		<link rel="stylesheet" href="css/jquery.fullPage.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<!--<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.7/jquery.slimscroll.min.js"></script>
+		<script src="http://libs.baidu.com/jqueryui/1.8.22/jquery-ui.min.js "></script>
+		<script src="http://www.ematewater.com/Home/Tpl/Public/js/jquery.fullPage.min.js"></script>-->
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.slimscroll.min.js" ></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.fullPage.min.js" ></script>
+		<script>
+			$(function() {
+				if($.browser.msie && $.browser.version < 10) {
+					$('body').addClass('ltie10');
+				}
+				$.fn.fullpage({
+					scrollOverflow: true,
+
+					verticalCentered: false,
+					anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10'],
+					navigation: false,
+					navigationTooltips: ['首页', '视觉', '交互', '皮肤', '功能', '待办邮件', '联系人邮件', '科技', '连接易信', '马上体验']
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="section section1" style="background: url(img/index_bigbg.png); background-size: cover;position: relative;">
+			<!-- 栏目导航 -->
+			<div class="nav">
+				<div class="m" style="position: relative;">
+					<div class="logo">
+						<a href="index.html"><img src="img/logo2.png"></a>
+					</div>
+					<div class="nav_c">
+						<ul style="float: left;">
+							<li>
+								<a href="http://www.ematewater.com">首页</a>
+							</li>
+							<li>
+								<a href="http://www.ematewater.com/about/index.html">关于我们</a>
+							</li>
+							<li>
+								<a href="http://www.ematewater.com/product/index.html">产品介绍</a>
+							</li>
+							<li>
+								<a href="http://www.ematewater.com/service/index.html">服务中心</a>
+							</li>
+							<li>
+								<a href="http://www.ematewater.com/brand/index.html">旗下品牌</a>
+							</li>
+							<li>
+								<a href="http://www.ematewater.com/article/index.html">新闻资讯</a>
+							</li>
+							<li>
+								<a href="http://www.ematewater.com/contact/index.html">联系我们</a>
+							</li>
+						</ul>
+						<div style="float: left; padding-left: 12px; padding-top: 30px;">|</div>
+						<a href="tencent://message/?uin=2850721987&Site=www.woyouli.com&Menu=yes" style="float:left;">
+							<img src="img/qqw.png" style="float: left; padding: 0 14px; padding-top: 30px;">
+						</a>
+						<div style="float: left; padding-right: 14px; padding-top: 30px;">
+							<a href="?l=zh-cn">中文版</a>
+						</div>
+						<div style="float: left; padding-right: 14px; padding-top: 30px;">|</div>
+						<div style="float:left; padding-top: 30px;">
+							<a href="?l=en-us">English</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ji" style="position: absolute;left: 50%;">
+				<p class="p1" style="line-height: 50px;">DO THE CENTURY ENTERPRISE<br/> CREATING WORLD BRAND</p>
+				<p class="p2" style="line-height: 50px;">树百年企业<br>创世界品牌</p>
+				<p class="p3" style="line-height: 50px;">创新改变生活 品质造就未来</p>
+				<div class="more_btn" style="text-align: center; float: none;">
+					<a href="about.html"><img src="img/more_btn.png"></a>
+				</div>
+			</div>
+		</div>
+		<!--第一屏-->
+		<div class="section section2">
+			<div class="sidenav">
+				<div class="sidelogo"><img src="img/logo2.png"></div>
+				<ul>
+					<li class="sy">
+						<span>
+							<img src="img/H.png">
+						</span>
+						<a href="#page1">首页</a>
+					</li>
+					<li style="background: #3cadf3; display: block;height: 50px;">
+						<span>
+							<img src="img/JT_hover.png">
+						</span>
+						<a style="color: #FFF" href="#page2">集团概况</a>
+					</li>
+					<li class="wh"><span><img src="img/CUL.png"></span>
+						<a href="#page3">企业文化</a>
+					</li>
+					<li class="fw2"><span><img src="img/PRO.png"></span>
+						<a href="#page4">产品与服务</a>
+					</li>
+					<li class="dz"><span><img src="img/DZ.png"></span>
+						<a href="#page5">私人定制</a>
+					</li>
+					<li class="zx"><span><img src="img/NEWS.png"></span>
+						<a href="#page6">新闻资讯</a>
+					</li>
+					<li class="lx"><span><img src="img/CONTACT.png"></span>
+						<a href="#page7">联系我们</a>
+					</li>
+				</ul>
+				<div class="www" style="position:relative">
+					<a href="tencent://message/?uin=2850721987&Site=www.woyouli.com&Menu=yes">
+						<img src="img/qq.png">
+					</a>
+					<a href="http://weibo.com/u/5770112832/home?topnav=1&wvr=6" target="_blank">
+						<img src="img/weibo.png">
+					</a>
+					<img class="wx" src="img/wechat.png">
+					<img class="jis" width="142" height="143" src="img/erwei.jpg" style="position: absolute; right:10px; bottom:-110px;opacity:0; z-index:3">
+				</div>
+				<p style="text-align:center;font-size: 12px; clear: both;">沪ICP备11005546号-3</p>
+			</div>
+			<div class="main">
+				<div class="mmz" style="height: 40%;">
+					<div class="p4" style="width: 50%; height:100%; display: inline-block; vertical-align: middle;">
+						<img src="img/index_JT1.png" style=" width:100%; height:100%;">
+					</div>
+					<div class="p5 main_company" style="padding: 0 2%; width: 44%; display: inline-block; vertical-align: middle; ">
+						<p class="title"><span style="border-bottom: 3px solid #3cadf3;display: inline-block;">集团</span>成立</p>
+						<p style="font-size: 15px; ">伊美特（上海）环保科技股份有限公司是一家集研发、生产、销售为一体的专业从事家用净水系列产品、工业成套水处理设备、商用反渗透直饮水机、公共饮水平台、中央软水器和工业水处理膜元件等系列环保产品的......</p>
+						<a href="about.html#page2">
+							<div class="small_more"><img style="width: 74px; height: 26px; float:right;margin-top: 5%;" src="img/more_small.png"></div>
+						</a>
+					</div>
+				</div>
+				<div class="mmz" style="height: 60%; position: relative; ">
+					<div class="p6 main_company" style="padding: 0 2%; width: 45.8%; display: inline-block; vertical-align: middle; ">
+						<p class="title"><span style="border-bottom: 3px solid #3cadf3;display: inline-block; ">集团</span>发展</p>
+						<p style="font-size: 15px; ">伊美特（上海）环保科技股份有限公司，凭借着雄厚的综合实力已获得近200项专利技术，通过了 ISO9001:2008国家质量体系认ISO14001:2004国际环境管理体系，加入WQA（美国水质协会）系金牌会员，获得了CE（欧洲统一认证），RoHS（欧盟电子电器整机认证）......</p>
+						<a href="about.html#page2">
+							<div class="small_more"><img style="width: 74px; height: 26px; float:right;margin-top: 5%;" src="img/more_small.png"></div>
+						</a>
+					</div>
+					<div class=" main_company" style=" padding: 0; clear: both; height:100%;width:49.5%; overflow: hidden; vertical-align: middle;">
+						<div class="p4" style="width: 100%; height:100%; display: inline-block; vertical-align: middle;"><img src="img/index_JT2.png" style=" width:100%; height:100%;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.main_company').css('opacity', '1')
+		</script>
+		<!--第三屏-->
+		<div class="section section3">
+			<div class="sidenav">
+				<div class="sidelogo"><img src="img/logo2.png"></div>
+				<ul>
+					<li class="sy"><span><img src="img/H.png"></span>
+						<a href="#page1">首页</a>
+					</li>
+					<li class="gk"><span><img src="img/JT.png"></span>
+						<a href="#page2">集团概况</a>
+					</li>
+					<li style="background: #3cadf3; display: block;height: 50px;">
+						<span>
+							<img src="img/CUL_hover.png">
+						</span>
+						<a style="color: #FFF" href="#page3">企业文化</a>
+					</li>
+					<li class="fw2"><span><img src="img/PRO.png"></span>
+						<a href="#page4">产品与服务</a>
+					</li>
+					<li class="dz"><span><img src="img/DZ.png"></span>
+						<a href="#page5">私人定制</a>
+					</li>
+					<li class="zx"><span><img src="img/NEWS.png"></span>
+						<a href="#page6">新闻资讯</a>
+					</li>
+					<li class="lx"><span><img src="img/CONTACT.png"></span>
+						<a href="#page7">联系我们</a>
+					</li>
+				</ul>
+				<div class="www" style="position:relative">
+					<a href="tencent://message/?uin=2850721987&Site=www.woyouli.com&Menu=yes"><img src="img/qq.png"></a>
+					<a href="http://weibo.com/u/5770112832/home?topnav=1&wvr=6" target="_blank"><img src="img/weibo.png"></a><img class="wx" src="img/wechat.png"><img class="jis" width="142" height="143" src="img/erwei.jpg" style="position: absolute; right:10px; bottom:-110px;opacity:0; z-index:3"></div>
+				<p style="text-align:center;font-size: 12px; clear: both;">沪ICP备11005546号-3</p>
+			</div>
+			<div class="main" style="font-size: 14px;">
+				<div class="dingwei">
+					<div style="width: 50%;height: 100%;float: left;background: url(img/index_wh1.png) no-repeat;background-size: cover;"></div>
+					<div class="dingwei_c">
+						<div class="title" style="color: #FFF;margin-top: 30px;"><span style="display: inline-block; height: 40px; border-bottom: 3px solid #FFF;">企业</span>使命</div>
+						<p style="font-size:15px; height: 195px; overflow: hidden; line-height: 24px;">上善若水，水善利万物而不争。让水“质归清源”、“品以润泽”，从而善利万物，是伊美特（上海）环保科技股份有限公司的企业使命。</p>
+						<a href="about.html#page4">
+							<div class="more_btn" style="margin-top:-60px;"><img src="img/more_btn.png"></div>
+						</a>
+					</div>
+				</div>
+				<div class="task">
+					<div style="width: 25%;height: 100%;background: url(img/index_wh2.png);float: left;"></div>
+					<div class="task_m">
+						<div class="title" style="color: #FFF;margin-top: 30px;"><span style="display: inline-block; height: 40px; border-bottom: 3px solid #FFF;">企业</span>愿景</div>
+						<p style="font-size:15px; height: 195px; overflow: hidden; line-height: 24px;">打造国际一流品牌，成为全球领先的水处理领域家用机及相关配件品牌的代工企业和自主品牌家用及工业水处理设备生产和销售的一体化综合性产业集团。</p>
+						<a href="about.html#page4">
+							<div class="more_btn" style="margin-top:-70px;"><img src="img/show_more.png"></div>
+						</a>
+					</div>
+					<div class="task_r">
+						<div style="	height: 25%;width: 100%;background: url(img/index_wh3.png);background-size: cover;"></div>
+						<div class="task_r_c">
+							<div class="title" style="color: #FFF;margin-top: 10px;"><span style="display: inline-block; height: 40px; border-bottom: 3px solid #FFF;">公司的</span>管理原则</div>
+							<p style="font-size:15px; height: 75px; overflow: hidden; line-height: 24px;">制度面前、人人平等</br>沟通是管理的最好办法</br>倾听员工的心声</br>
+							</p>
+							<a href="about.html#page4">
+								<div class="more_btn" style="margin-top:10px;"><img src="img/show_more.png"></div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="value">
+					<div class="value_l">
+						<div style="	background: url(img/index_wh4.png);background-size:cover;width: 60%;height: 100%;float: left;"></div>
+						<div class="value_p_c">
+							<div class="title" style="color: #FFF;margin-top: 120px;"><span style="display: inline-block; height: 40px; border-bottom: 3px solid #FFF;">企业</span>价值观</div>
+							<P style="font-size:15px; height: 195px; overflow: hidden; line-height: 24px;">服务大众</br>造福社会</br>关注健康</br>以人为本</br>
+							</P>
+							<a href="about.html#page4">
+								<div class="more_btn" style="margin-top:-50px;"><img src="img/show_more.png"></div>
+							</a>
+						</div>
+					</div>
+					<div class="siprit">
+						<div style="	width: 100%;height: 35%;background: url(img/index_wh5.png) no-repeat;background-size: cover;"></div>
+						<div class="siprit_p_c">
+							<div class="title" style="color: #FFF;margin-top: 20px;"><span style="display: inline-block; height: 40px; border-bottom: 3px solid #FFF;">合作创造价值</div>
+								<P style="font-size:15px; height: 95px; overflow: hidden; line-height: 24px;">我们是富有激情的团队，携手合作，团结进取，更好，更快，更强是我们追求的目标，同样的梦想使我们走到一起，相信我们必将创造更加辉煌的明天！</P>
+								<a href="about.html#page4" >
+									<div class="more_btn" style="margin-top:10px;">
+										<img src="img/show_more.png"></div></a></div></div><div class="value_r">
+											<div style="	background: url(img/index_wh6.png);background-size:cover;width: 60%;height: 100%;float: left;"></div>
+											<div class="value_p_c">
+												<div class="title" style="color: #FFF; margin-top: 120px;">
+													<span style="display: inline-block; height: 40px; border-bottom: 3px solid #FFF;">企业</span>精神</div>
+							<P style="font-size:15px; height: 195px; overflow: hidden; line-height: 24px;">专业</br>专心</br>专注</br>诚信</br>团结</br>创新</br>
+							</P>
+							<a href="about.html#page4">
+								<div class="more_btn" style="margin-top:-40px;"><img src="img/show_more.png"></div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--第四屏-->
+		<div class="section section4">
+			<div class="sidenav">
+				<div class="sidelogo"><img src="img/logo2.png"></div>
+				<ul>
+					<li class="sy"><span><img src="img/H.png"></span>
+						<a href="#page1">首页</a>
+					</li>
+					<li class="gk"><span><img src="img/JT.png"></span>
+						<a href="#page2">集团概况</a>
+					</li>
+					<li class="wh"><span><img src="img/CUL.png"></span>
+						<a href="#page3">企业文化</a>
+					</li>
+					<li style="background: #3cadf3; display: block;height: 50px;">
+						<span><img src="img/PRO_hover.png"></span>
+						<a style="color: #FFF" href="#page4">产品与服务</a>
+					</li>
+					<li class="dz"><span><img src="img/DZ.png"></span>
+						<a href="#page5">私人定制</a>
+					</li>
+					<li class="zx"><span><img src="img/NEWS.png"></span>
+						<a href="#page6">新闻资讯</a>
+					</li>
+					<li class="lx"><span><img src="img/CONTACT.png"></span>
+						<a href="#page7">联系我们</a>
+					</li>
+				</ul>
+				<div class="www" style="position:relative">
+					<a href="tencent://message/?uin=2850721987&Site=www.woyouli.com&Menu=yes"><img src="img/qq.png"></a>
+					<a href="http://weibo.com/u/5770112832/home?topnav=1&wvr=6" target="_blank"><img src="img/weibo.png"></a>
+					<img class="wx" src="img/wechat.png">
+					<img class="jis" width="142" height="143" src="img/erwei.jpg" style="position: absolute; right:10px; bottom:-110px;opacity:0; z-index:3"></div>
+				<p style="text-align:center;font-size: 12px; clear: both;">沪ICP备11005546号-3</p>
+			</div>
+			<div class="main">
+				<ul id="product_c">
+					<li style="position: relative;border-left: 1px solid #ccc; text-align: center;">
+						<p class="p30" style="font-size: 30px; color: #3cadf3;font-weight: bold; vertical-align: middle; top: 30%;"><span style="border-left: 3px solid #3cadf3">&nbsp;&nbsp;&nbsp;&nbsp;伊美特五大产品线</span></p>
+						<a href="product.html">
+							<p class="p30 btn" style="position: absolute;top: 45%; width: 100%;text-align:center; width:30%; height: 40px; border: 2px #3cadf3 solid; line-height: 40px; color:#3cadf3; left: 35%">more</p>
+						</a>
+					</li>
+					<a href="product.html#peijian">
+						<li style="background: url(img/index_cpE.png) no-repeat; background-size:contain; position: relative;">
+							<p class="p31">伊美特配件</p>
+							<div class="zhezhao"></div>
+						</li>
+					</a>
+					<a href="product.html#shangyong">
+						<li style="background: url(img/index_cpM.png) no-repeat; background-size:contain; position: relative;width: 33.6%">
+							<p class="p32">商用工程设备</p>
+							<div class="zhezhao"></div>
+						</li>
+					</a>
+					<a href="service.html#page2">
+						<li style="background: url(img/index_cpT.png) no-repeat; background-size:contain;border-left: 1px solid #ccc; position: relative;">
+							<p class="p33">私人定制</p>
+							<div class="zhezhao"></div>
+						</li>
+					</a>
+					<a href="service.html#page3">
+						<li style="background: url(img/index_cpE.png)  no-repeat;background-size:contain; position: relative;">
+							<p class="p34">全屋净水方案</p>
+							<div class="zhezhao"></div>
+						</li>
+					</a>
+					<a href="brand.html">
+						<li style="background: url(img/index_cpC.png) no-repeat;background-size:contain; position: relative;width: 33.6%">
+							<p class="p35">旗下品牌</p>
+							<div class="zhezhao"></div>
+						</li>
+					</a>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+				$('#product_c').find('li').mouseover(function() {
+					$(this).find('.zhezhao').css('opacity', '1');
+				})
+				$('#product_c').find('li').mouseout(function() {
+					$(this).find('.zhezhao').css('opacity', '0');
+				})
+			})
+		</script>
+		<!--第五屏-->
+		<div class="section section5">
+			<div class="sidenav">
+				<div class="sidelogo"><img src="img/logo2.png"></div>
+				<ul>
+					<li class="sy"><span><img src="img/H.png"></span>
+						<a href="#page1">首页</a>
+					</li>
+					<li class="gk"><span><img src="img/JT.png"></span>
+						<a href="#page2">集团概况</a>
+					</li>
+					<li class="wh"><span><img src="img/CUL.png"></span>
+						<a href="#page3">企业文化</a>
+					</li>
+					<li class="fw2"><span><img src="img/PRO.png"></span>
+						<a href="#page4">产品与服务</a>
+					</li>
+					<li style="background: #3cadf3; display: block;height: 50px;">
+						<span>
+							<img src="img/DZ_hover.png"></span>
+						<a style="color: #FFF" href="#page5">私人定制</a>
+					</li>
+					<li class="zx"><span><img src="img/NEWS.png"></span>
+						<a href="#page6">新闻资讯</a>
+					</li>
+					<li class="lx"><span><img src="img/CONTACT.png"></span>
+						<a href="#page7">联系我们</a>
+					</li>
+				</ul>
+				<div class="www" style="position:relative">
+	<a href="tencent://message/?uin=2850721987&Site=www.woyouli.com&Menu=yes">
+		<img src="img/qq.png"></a>
+	<a href="http://weibo.com/u/5770112832/home?topnav=1&wvr=6" target="_blank">
+		<img src="img/weibo.png">
+	</a>
+	<img class="wx" src="img/wechat.png">
+	<img class="jis" width="142" height="143" src="img/erwei.jpg" style="position: absolute; right:10px; bottom:-110px;opacity:0; z-index:3"></div>
+<p style="text-align:center;font-size: 12px; clear: both;">沪ICP备11005546号-3</p>
+</div>
+<div class="main" style="background: url(img/index_DZ.png); background-size:cover;">
+	<div class="siren">
+		<div class="title_sr"><i><span style="color:#36b5fc; font-size:80px;">私人.</span>定制</i></div>
+		<p><span style="font-size:16px;">伊美特是一家行业内公认的家用净水机整机和配件生产超全的国家高新技术企业，产品95%以上零部件皆自主研发、自主生产。公司与国内外众多知名品牌合作，提供设计、研发，开模，定制等一系列深度合作。伊美特拥有多项专利核心技术，采用创新的制造工艺，产品功能及外观独特，并可以针对不同地区水质差异，为客户量身定制不同类别，不同功能的产品，让您独享市场话语权，坐享丰厚回报，伊美特为您保障市场稳定持续发展，给您在市场中的竞争优势提供保证。凭着优异的品质，完善的服务，多年来伊美特赢得国内外众知名企业的推崇。</span></p>
+				</div>
+			</div>
+		</div>
+		<!--第六屏-->
+		<div class="section section6">
+			<div class="sidenav">
+				<div class="sidelogo"><img src="img/logo2.png"></div>
+				<ul>
+					<li class="sy"><span><img src="img/H.png"></span>
+						<a href="#page1">首页</a>
+					</li>
+					<li class="gk"><span><img src="img/JT.png"></span>
+						<a href="#page2">集团概况</a>
+					</li>
+					<li class="wh"><span><img src="img/CUL.png"></span>
+						<a href="#page3">企业文化</a>
+					</li>
+					<li class="fw2"><span><img src="img/PRO.png"></span>
+						<a href="#page4">产品与服务</a>
+					</li>
+					<li class="dz"><span><img src="img/DZ.png"></span>
+						<a href="#page5">私人定制</a>
+					</li>
+					<li style="background: #3cadf3; display: block;height: 50px;"><span><img src="img/NEWS_hover.png"></span>
+						<a style="color: #FFF" href="#page6">新闻资讯</a>
+					</li>
+					<li class="lx"><span><img src="img/CONTACT.png"></span>
+						<a href="#page7">联系我们</a>
+					</li>
+				</ul>
+				<div class="www" style="position:relative">
+					<a href="tencent://message/?uin=2850721987&Site=www.woyouli.com&Menu=yes">
+						<img src="img/qq.png"></a>
+					<a href="http://weibo.com/u/5770112832/home?topnav=1&wvr=6" target="_blank">
+						<img src="img/weibo.png">
+					</a>
+					<img class="wx" src="img/wechat.png">
+					<img class="jis" width="142" height="143" src="img/erwei.jpg" style="position: absolute; right:10px; bottom:-110px;opacity:0; z-index:3"></div>
+				<p style="text-align:center;font-size: 12px; clear: both;">沪ICP备11005546号-3</p>
+			</div>
+			<div class="main" style="background: url(img/index_newBG.png); background-size: cover">
+				<ul id="news_c">
+					<li style="position: relative;"><img src="img/index_new1.png" height="195" width="274" style="margin-top:20px;">
+						<p style="font-size:14px;padding-top: 5px;">伊美特超低压反渗透膜……</p>
+						<p style="font-size: 12px; color:#3cadf3; padding-bottom: 10px;">2016.05.16</p>
+						<p style="font-size: 12px; border-top: 1px solid #000; padding-top: 10px;">　　2015年9月18日，一家来自上海的国家级高新技术企业，上海伊美特……</p>
+						<a href="http://www.ematewater.com/article/detail/aid/14.html" target="_self">
+							<div class="btn_more" style="background:#FFF url(img/more_03.png) repeat scroll 0 0;"></div>
+						</a>
+					</li>
+					<li style="position: relative;"><img src="img/index_new2.png" height="195" width="274" style="margin-top:20px;">
+						<p style="font-size:14px;padding-top: 5px;">【关注】国务院发布新……</p>
+						<p style="font-size: 12px; color:#3cadf3; padding-bottom: 10px;">2016.05.17</p>
+						<p style="font-size: 12px; border-top: 1px solid #000; padding-top: 10px;">近日，国务院发布了题为《国务院关于积极发挥新消费引领作用、加快培育形成……</p>
+						<a href="http://www.ematewater.com/article/detail/aid/7.html" target="_self">
+							<div class="btn_more" style="background:#FFF url(img/more_03.png) repeat scroll 0 0;"></div>
+						</a>
+					</li>
+					<li style="position: relative;"><img src="img/index_new3.png" height="195" width="274" style="margin-top:20px;">
+						<p style="font-size:14px;padding-top: 5px;">【头条】恭贺伊美特再……</p>
+						<p style="font-size: 12px; color:#3cadf3; padding-bottom: 10px;">2016.05.17</p>
+						<p style="font-size: 12px; border-top: 1px solid #000; padding-top: 10px;"> 4月9日，2016中国环保经济年度盛典&amp;中国直饮水100强企……</p>
+						<a href="http://www.ematewater.com/article/detail/aid/6.html" target="_self">
+							<div class="btn_more" style="background:#FFF url(img/more_03.png) repeat scroll 0 0;"></div>
+						</a>
+					</li>
+					<li style="position: relative;"><img src="img/index_new4.png" height="195" width="274" style="margin-top:20px;">
+						<p style="font-size:14px;padding-top: 5px;">【焦点】水利部：超八……</p>
+						<p style="font-size: 12px; color:#3cadf3; padding-bottom: 10px;">2016.05.17</p>
+						<p style="font-size: 12px; border-top: 1px solid #000; padding-top: 10px;">水利部最近公开的2016年1月《地下水动态月报》（以下简称《月报》）显……</p>
+						<a href="http://www.ematewater.com/article/detail/aid/5.html" target="_self">
+							<div class="btn_more" style="background:#FFF url(img/more_03.png) repeat scroll 0 0;"></div>
+						</a>
+					</li>
+				</ul>
+				<script type="text/javascript">
+					$(function() {
+						$('#news_c').find('li').mouseover(function() {
+							$(this).find('.zhezhao3').css('opacity', '1');
+							$(this).find('.btn_more').css('background', 'url(img/more_03.png)');
+
+						})
+						$('#news_c').find('li').mouseout(function() {
+							$(this).find('.zhezhao3').css('opacity', '0');
+							$(this).find('.btn_more').css('background', 'url(img/more_03.png)');
+
+						})
+					})
+				</script>
+			</div>
+		</div>
+		<!--第七屏-->
+		<div class="section section7">
+			<div class="sidenav">
+				<div class="sidelogo"><img src="img/logo2.png"></div>
+				<ul>
+					<li class="sy"><span><img src="img/H.png"></span>
+						<a href="#page1">首页</a>
+					</li>
+					<li class="gk"><span><img src="img/JT.png"></span>
+						<a href="#page2">集团概况</a>
+					</li>
+					<li class="wh"><span><img src="img/CUL.png"></span>
+						<a href="#page3">企业文化</a>
+					</li>
+					<li class="fw2"><span><img src="img/PRO.png"></span>
+						<a href="#page4">产品与服务</a>
+					</li>
+					<li class="dz"><span><img src="img/DZ.png"></span>
+						<a href="#page5">私人定制</a>
+					</li>
+					<li class="zx"><span><img src="img/NEWS.png"></span>
+						<a href="#page6">新闻资讯</a>
+					</li>
+					<li style="background: #3cadf3; display: block;height: 50px;"><span><img src="img/CONTACT_hover.png"></span>
+						<a style="color: #FFF" href="#page7">联系我们</a>
+					</li>
+				</ul>
+				<div class="www" style="position:relative">
+					<a href="tencent://message/?uin=2850721987&Site=www.woyouli.com&Menu=yes">
+						<img src="img/qq.png"></a>
+					<a href="http://weibo.com/u/5770112832/home?topnav=1&wvr=6" target="_blank">
+						<img src="img/weibo.png">
+					</a>
+						<img class="wx" src="img/wechat.png">
+						<img class="jis" width="142" height="143" src="img/erwei.jpg" style="position: absolute; right:10px; bottom:-110px;opacity:0; z-index:3">
+				</div>
+				<p style="text-align:center;font-size: 12px; clear: both;">沪ICP备11005546号-3</p>
+			</div>
+			<div class="main" style="background: url(img/index_content.png); background-size: cover">
+				<a href="contact.html">
+					<div class="bg2" style="position: relative;">
+						<p class="p50" style="font-size: 30px; left:8%;">伊美特(上海)环保科技股份有限公司</p>
+						<p class="p51" style="left:16%;">地址：上海市闵行区纪翟路1418号</p>
+						<p class="p52">网站：www.ematewater.com</p>
+					</div>
+				</a>
+			</div>
+			<a href="#page1" style="position: absolute;right:50px; bottom:300px;z-index: 2"><img src="img/retTop.png"></a>
+			<div class="footer" style=" float:left; position:relative;">
+				<div class="footer_c">
+					<div class="footer_l"><img src="img/logo_footer.png">
+						<ul>
+							<li>
+								<a href="http://www.ematewater.com">首页</a>
+							</li>
+							<li>
+								<a href="http://www.ematewater.com/about/index.html">关于我们</a>
+							</li>
+							<li>
+								<a href="http://www.ematewater.com/product/index.html">产品介绍</a>
+							</li>
+							<li>
+								<a href="http://www.ematewater.com/service/index.html">服务中心</a>
+							</li>
+							<li>
+								<a href="http://www.ematewater.com/brand/index.html">旗下品牌</a>
+							</li>
+							<li>
+								<a href="http://www.ematewater.com/article/index.html">新闻资讯</a>
+							</li>
+							<li>
+								<a href="http://www.ematewater.com/contact/index.html">联系我们</a>
+							</li>
+						</ul><br>
+						<p style="padding-left: 26px; float: left; line-height: 26px;">伊美特(上海)环保科技股份有限公司</p>
+					</div>
+					<div class="footer_r"><span>地址：上海市闵行区纪翟路1418号</span><br/><span>电话：400-820-5617</span><br><span>Copyright © 2016 伊美特（上海）环保科技股份有限公司</span><span>沪ICP备11005546号-3</span></div>
+				</div>
+			</div>
+		</div>
+		<!--左边悬浮框鼠标效果-->
+		<script type="text/javascript">
+			$(function() {
+				$('.sy').mouseover(function() {
+					$(this).find('img').attr('src', 'img/H_hover.png');
+					$(this).find('a').css('color', '#FFF');
+				})
+				$('.sy').mouseout(function() {
+					$(this).find('img').attr('src', 'img/H.png');
+					$(this).find('a').css('color', '#000');
+				})
+				$('.gk').mouseover(function() {
+					$(this).find('img').attr('src', 'img/JT_hover.png');
+					$(this).find('a').css('color', '#FFF');
+				})
+				$('.gk').mouseout(function() {
+					$(this).find('img').attr('src', 'img/JT.png');
+					$(this).find('a').css('color', '#000');
+				})
+				$('.wh').mouseover(function() {
+					$(this).find('img').attr('src', 'img/CUL_hover.png');
+					$(this).find('a').css('color', '#FFF');
+				})
+				$('.wh').mouseout(function() {
+					$(this).find('img').attr('src', 'img/CUL.png');
+					$(this).find('a').css('color', '#000');
+				})
+				$('.fw2').mouseover(function() {
+					$(this).find('img').attr('src', 'img/PRO_hover.png');
+					$(this).find('a').css('color', '#FFF');
+				})
+				$('.fw2').mouseout(function() {
+					$(this).find('img').attr('src', 'img/PRO.png');
+					$(this).find('a').css('color', '#000');
+				})
+				$('.dz').mouseover(function() {
+					$(this).find('img').attr('src', 'img/DZ_hover.png');
+					$(this).find('a').css('color', '#FFF');
+				})
+				$('.dz').mouseout(function() {
+					$(this).find('img').attr('src', 'img/PRO.png');
+					$(this).find('a').css('color', '#000');
+				})
+				$('.zx').mouseover(function() {
+					$(this).find('img').attr('src', 'img/NEWS_hover.png');
+					$(this).find('a').css('color', '#FFF');
+				})
+				$('.zx').mouseout(function() {
+					$(this).find('img').attr('src', 'img/NEWS.png');
+					$(this).find('a').css('color', '#000');
+				})
+				$('.lx').mouseover(function() {
+					$(this).find('img').attr('src', 'img/CONTACT_hover.png');
+					$(this).find('a').css('color', '#FFF');
+				})
+				$('.lx').mouseout(function() {
+					$(this).find('img').attr('src', 'img/CONTACT.png');
+					$(this).find('a').css('color', '#000');
+				})
+			})
+		</script>
+		<script>
+			$('.wx').mouseover(function() {
+				$('.jis').css('opacity', '1');
+			})
+			$('.wx').mouseout(function() {
+				$('.jis').css('opacity', '0');
+			})
+		</script>
+	</body>
+
+</html>
